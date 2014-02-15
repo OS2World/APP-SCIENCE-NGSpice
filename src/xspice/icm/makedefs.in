@@ -1,0 +1,70 @@
+# Edit this file to set global include paths, 
+# compiler info and subdirs
+
+# Directory sturcture
+SHELL = @SHELL@
+srcdir = @srcdir@
+top_builddir = ../../..
+top_srcdir = @top_srcdir@
+subdir = src/xspice/icm
+mkdir_p = @mkdir_p@
+uname = $(shell uname)
+                                                                                
+# C compiler to use
+CC = @CC@
+
+# Spice header include path
+INCLUDES = -I$(TOPDIR)$(top_srcdir)/src/include -I$(TOPDIR)$(top_builddir)
+
+# CFLAGS to use here
+CFLAGS = @CFLAGS@ -fPIC -DCM_LINUX
+DEPFLAGS = -MD -MF
+ISMINGW = $(shell uname | grep -c "MINGW32")
+ifeq ($(ISMINGW), 1)
+  CFLAGS = @CFLAGS@ -DCM_WINDOWS
+endif
+ISCYGWIN = $(shell uname | grep -c "CYGWIN")
+ifeq ($(ISCYGWIN), 1)
+  CFLAGS = @CFLAGS@ -DCM_WINDOWS
+endif
+ISSUNOS = $(shell uname | grep -c "SunOS")
+ifeq ($(ISSUNOS), 1)
+  ifneq "$(CC)" "gcc"
+    CFLAGS = @CFLAGS@ -KPIC -DCM_LINUX
+    DEPFLAGS = -xMD -xMF
+  endif
+endif
+
+# Path to the cmpp utility
+CMPP = $(TOPDIR)$(top_builddir)/src/xspice/cmpp/cmpp
+
+# Flags to use when linking shared library
+LDFLAGS = -shared
+ifeq ($(ISMINGW), 1)
+  LDFLAGS = -shared @LDFLAGS@
+endif
+ifeq "$(strip $(uname))" "Darwin"
+  LDFLAGS = -bundle -flat_namespace -undefined suppress
+endif
+ifeq "$(strip $(uname))" "SunOS"
+  ifneq "$(CC)" "gcc"
+    LDFLAGS = -G
+  endif
+endif
+
+# The codemodels to make
+CMDIRS = spice2poly digital analog xtradev xtraevt
+
+# Install instructions
+
+# or use mkdir -p
+#mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+mkinstalldirs = $(mkdir_p)
+
+INSTALL = @INSTALL@
+INSTALL_DATA = @INSTALL_DATA@
+
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+libdir = @libdir@
+

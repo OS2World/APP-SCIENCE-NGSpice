@@ -1,0 +1,29 @@
+This is the OS/2 port for NGSpice 22.
+
+NG-spice is an electronic circuit simulation program, based
+on Spice 3f5, Cider1 b1 and XSpice.
+
+It seems to me that the only thing lacking from this port is
+the X11 interface, since I don't have an X11 environment right now.
+
+I might try to do this in the future, but since we don't have an
+updated X11 environment - and the simulation data could be read
+with other mathematic / graphic software, I don't feel it's a big
+lack.
+
+The executables for the program, together with a complete manual
+in PDF format (took from ngspice-22-doc), are in the bin/ subdirectory.
+This is also all you need to run ngspice, together with one or more
+.CIR files describing the circuits you want to simulate; the sources
+I include in this distribution are only for completeness, and can be
+useful if you want to try and compile it yourself.
+
+If you find this software useful, please consider making a donation
+to Paul Smedley (via Netlabs), because without his Gcc 3.3.5 and his
+build environment I don't think this and other software would be
+ported natively on OS/2.
+
+Have fun.
+Mentore Siesto
+Pisa, Italy
+mentore.siesto@alice.it

@@ -1,0 +1,70 @@
+# Edit this file to set global include paths, 
+# compiler info and subdirs
+
+# Directory sturcture
+SHELL = sh
+srcdir = .
+top_builddir = ../../..
+top_srcdir = ../../..
+subdir = src/xspice/icm
+mkdir_p = u:/bin/mkdir.exe -p
+uname = $(shell uname)
+                                                                                
+# C compiler to use
+CC = gcc
+
+# Spice header include path
+INCLUDES = -I$(TOPDIR)$(top_srcdir)/src/include -I$(TOPDIR)$(top_builddir)
+
+# CFLAGS to use here
+CFLAGS = -D__EMX__ -Dunix  -D__ST_MT_ERRNO__ -O3 -march=pentium3 -g -O0 -Wall -Wno-unused-parameter -fPIC -DCM_LINUX
+DEPFLAGS = -MD -MF
+ISMINGW = $(shell uname | grep -c "MINGW32")
+ifeq ($(ISMINGW), 1)
+  CFLAGS = -D__EMX__ -Dunix  -D__ST_MT_ERRNO__ -O3 -march=pentium3 -g -O0 -Wall -Wno-unused-parameter -DCM_WINDOWS
+endif
+ISCYGWIN = $(shell uname | grep -c "CYGWIN")
+ifeq ($(ISCYGWIN), 1)
+  CFLAGS = -D__EMX__ -Dunix  -D__ST_MT_ERRNO__ -O3 -march=pentium3 -g -O0 -Wall -Wno-unused-parameter -DCM_WINDOWS
+endif
+ISSUNOS = $(shell uname | grep -c "SunOS")
+ifeq ($(ISSUNOS), 1)
+  ifneq "$(CC)" "gcc"
+    CFLAGS = -D__EMX__ -Dunix  -D__ST_MT_ERRNO__ -O3 -march=pentium3 -g -O0 -Wall -Wno-unused-parameter -KPIC -DCM_LINUX
+    DEPFLAGS = -xMD -xMF
+  endif
+endif
+
+# Path to the cmpp utility
+CMPP = $(TOPDIR)$(top_builddir)/src/xspice/cmpp/cmpp
+
+# Flags to use when linking shared library
+LDFLAGS = -shared
+ifeq ($(ISMINGW), 1)
+  LDFLAGS = -shared -Zexe -Zomf -Zmap -Zargs-wild -Zbin-files -D__ST_MT_ERRNO__ -s
+endif
+ifeq "$(strip $(uname))" "Darwin"
+  LDFLAGS = -bundle -flat_namespace -undefined suppress
+endif
+ifeq "$(strip $(uname))" "SunOS"
+  ifneq "$(CC)" "gcc"
+    LDFLAGS = -G
+  endif
+endif
+
+# The codemodels to make
+CMDIRS = spice2poly digital analog xtradev xtraevt
+
+# Install instructions
+
+# or use mkdir -p
+#mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+mkinstalldirs = $(mkdir_p)
+
+INSTALL = /bin/install.exe
+INSTALL_DATA = ${INSTALL} -m 644
+
+prefix = /usr/local
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib
+

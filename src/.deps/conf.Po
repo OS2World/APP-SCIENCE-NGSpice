@@ -1,0 +1,5 @@
+conf.o conf.o: conf.c ../config.h conf.h
+
+../config.h:
+
+conf.h:

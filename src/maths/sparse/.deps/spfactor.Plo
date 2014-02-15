@@ -1,0 +1,35 @@
+spfactor.lo spfactor.o: spfactor.c U:/USR/include/assert.h spconfig.h \
+  ../../../src/include/spmatrix.h ../../../src/include/sperror.h \
+  ../../../src/include/iferrmsg.h spdefs.h U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  ../../../src/include/defines.h
+
+U:/USR/include/assert.h:
+
+spconfig.h:
+
+../../../src/include/spmatrix.h:
+
+../../../src/include/sperror.h:
+
+../../../src/include/iferrmsg.h:
+
+spdefs.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+../../../src/include/defines.h:

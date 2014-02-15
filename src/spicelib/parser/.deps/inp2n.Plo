@@ -1,0 +1,3 @@
+inp2n.lo inp2n.o: inp2n.c ../../../config.h
+
+../../../config.h:

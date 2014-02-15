@@ -1,0 +1,73 @@
+hcomp.lo hcomp.o: hcomp.c ../../src/include/cpdefs.h \
+  ../../src/include/cpstd.h U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  ../../src/include/bool.h ../../src/include/wordlist.h \
+  ../../src/include/complex.h ../../src/include/cpextern.h \
+  U:/USR/include/string.h U:/USR/include/strings.h \
+  ../../src/include/fteext.h ../../config.h ../../src/include/typedefs.h \
+  ../../src/include/ifsim.h ../../src/include/dvec.h \
+  ../../src/include/grid.h ../../src/include/plot.h \
+  ../../src/include/ftedefs.h ../../src/include/fteparse.h \
+  ../../src/include/pnode.h ../../src/include/fteinp.h \
+  ../../src/include/inpdefs.h ../../src/include/gendefs.h \
+  ../../src/include/inpptree.h
+
+../../src/include/cpdefs.h:
+
+../../src/include/cpstd.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+../../src/include/bool.h:
+
+../../src/include/wordlist.h:
+
+../../src/include/complex.h:
+
+../../src/include/cpextern.h:
+
+U:/USR/include/string.h:
+
+U:/USR/include/strings.h:
+
+../../src/include/fteext.h:
+
+../../config.h:
+
+../../src/include/typedefs.h:
+
+../../src/include/ifsim.h:
+
+../../src/include/dvec.h:
+
+../../src/include/grid.h:
+
+../../src/include/plot.h:
+
+../../src/include/ftedefs.h:
+
+../../src/include/fteparse.h:
+
+../../src/include/pnode.h:
+
+../../src/include/fteinp.h:
+
+../../src/include/inpdefs.h:
+
+../../src/include/gendefs.h:
+
+../../src/include/inpptree.h:

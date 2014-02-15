@@ -1,0 +1,42 @@
+test_cx_mag.o test_cx_mag.o: test_cx_mag.c U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  ../../../config.h ../../../src/include/memory.h U:/USR/include/stddef.h \
+  ../../../src/misc/stringutil.h ../../../src/include/bool.h \
+  ../../../src/include/dvec.h ../../../src/include/complex.h \
+  ../../../src/include/grid.h cmath.h cmath1.h
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+../../../config.h:
+
+../../../src/include/memory.h:
+
+U:/USR/include/stddef.h:
+
+../../../src/misc/stringutil.h:
+
+../../../src/include/bool.h:
+
+../../../src/include/dvec.h:
+
+../../../src/include/complex.h:
+
+../../../src/include/grid.h:
+
+cmath.h:
+
+cmath1.h:

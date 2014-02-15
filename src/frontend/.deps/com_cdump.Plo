@@ -1,0 +1,30 @@
+com_cdump.lo com_cdump.o: com_cdump.c U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  ../../src/include/wordlist.h control.h ../../src/include/bool.h \
+  streams.h com_cdump.h
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+../../src/include/wordlist.h:
+
+control.h:
+
+../../src/include/bool.h:
+
+streams.h:
+
+com_cdump.h:

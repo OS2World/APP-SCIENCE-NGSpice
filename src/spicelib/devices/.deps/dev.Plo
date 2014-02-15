@@ -1,0 +1,205 @@
+dev.lo dev.o: dev.c ../../../config.h U:/USR/include/assert.h \
+  ../../../src/include/devdefs.h ../../../src/include/optdefs.h \
+  ../../../src/include/gendefs.h ../../../src/include/typedefs.h \
+  ../../../src/include/ifsim.h ../../../src/include/cktdefs.h \
+  ../../../src/include/smpdefs.h U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  U:/USR/include/math.h U:/USR/include/machine/_limits.h \
+  U:/USR/include/386/_limits.h ../../../src/include/complex.h \
+  ../../../src/include/acdefs.h ../../../src/include/jobdefs.h \
+  ../../../src/include/trcvdefs.h ../../../src/include/tskdefs.h \
+  ../../../src/include/sen2defs.h ../../../src/include/pzdefs.h \
+  ../../../src/include/noisedef.h dev.h ../../../src/include/memory.h \
+  U:/USR/include/stddef.h ../../../src/misc/stringutil.h \
+  ../../../src/include/bool.h asrc/asrcitf.h bjt/bjtitf.h bjt2/bjt2itf.h \
+  bsim1/bsim1itf.h bsim2/bsim2itf.h bsim3/bsim3itf.h bsim3v0/bsim3v0itf.h \
+  bsim3v1/bsim3v1itf.h bsim3v1a/bsim3v1aitf.h bsim3v1s/bsim3v1sitf.h \
+  bsim3v32/bsim3v32itf.h bsim4/bsim4itf.h bsim4v2/bsim4v2itf.h \
+  bsim4v3/bsim4v3itf.h bsim4v4/bsim4v4itf.h bsim4v5/bsim4v5itf.h \
+  bsim3soi/b4soiitf.h bsim3soi/b4soiext.h bsim3soi_pd/b3soipditf.h \
+  bsim3soi_pd/b3soipdext.h bsim3soi_fd/b3soifditf.h \
+  bsim3soi_fd/b3soifdext.h bsim3soi_dd/b3soidditf.h \
+  bsim3soi_dd/b3soiddext.h cap/capitf.h cccs/cccsitf.h ccvs/ccvsitf.h \
+  csw/cswitf.h dio/dioitf.h hfet1/hfetitf.h hfet2/hfet2itf.h \
+  hisim/hsm1itf.h ind/inditf.h isrc/isrcitf.h jfet/jfetitf.h \
+  jfet2/jfet2itf.h ltra/ltraitf.h mes/mesitf.h mesa/mesaitf.h \
+  mos1/mos1itf.h mos2/mos2itf.h mos3/mos3itf.h mos6/mos6itf.h \
+  mos9/mos9itf.h cpl/cplitf.h res/resitf.h soi3/soi3itf.h sw/switf.h \
+  tra/traitf.h txl/txlitf.h urc/urcitf.h vbic/vbicitf.h vccs/vccsitf.h \
+  vcvs/vcvsitf.h vsrc/vsrcitf.h
+
+../../../config.h:
+
+U:/USR/include/assert.h:
+
+../../../src/include/devdefs.h:
+
+../../../src/include/optdefs.h:
+
+../../../src/include/gendefs.h:
+
+../../../src/include/typedefs.h:
+
+../../../src/include/ifsim.h:
+
+../../../src/include/cktdefs.h:
+
+../../../src/include/smpdefs.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/include/math.h:
+
+U:/USR/include/machine/_limits.h:
+
+U:/USR/include/386/_limits.h:
+
+../../../src/include/complex.h:
+
+../../../src/include/acdefs.h:
+
+../../../src/include/jobdefs.h:
+
+../../../src/include/trcvdefs.h:
+
+../../../src/include/tskdefs.h:
+
+../../../src/include/sen2defs.h:
+
+../../../src/include/pzdefs.h:
+
+../../../src/include/noisedef.h:
+
+dev.h:
+
+../../../src/include/memory.h:
+
+U:/USR/include/stddef.h:
+
+../../../src/misc/stringutil.h:
+
+../../../src/include/bool.h:
+
+asrc/asrcitf.h:
+
+bjt/bjtitf.h:
+
+bjt2/bjt2itf.h:
+
+bsim1/bsim1itf.h:
+
+bsim2/bsim2itf.h:
+
+bsim3/bsim3itf.h:
+
+bsim3v0/bsim3v0itf.h:
+
+bsim3v1/bsim3v1itf.h:
+
+bsim3v1a/bsim3v1aitf.h:
+
+bsim3v1s/bsim3v1sitf.h:
+
+bsim3v32/bsim3v32itf.h:
+
+bsim4/bsim4itf.h:
+
+bsim4v2/bsim4v2itf.h:
+
+bsim4v3/bsim4v3itf.h:
+
+bsim4v4/bsim4v4itf.h:
+
+bsim4v5/bsim4v5itf.h:
+
+bsim3soi/b4soiitf.h:
+
+bsim3soi/b4soiext.h:
+
+bsim3soi_pd/b3soipditf.h:
+
+bsim3soi_pd/b3soipdext.h:
+
+bsim3soi_fd/b3soifditf.h:
+
+bsim3soi_fd/b3soifdext.h:
+
+bsim3soi_dd/b3soidditf.h:
+
+bsim3soi_dd/b3soiddext.h:
+
+cap/capitf.h:
+
+cccs/cccsitf.h:
+
+ccvs/ccvsitf.h:
+
+csw/cswitf.h:
+
+dio/dioitf.h:
+
+hfet1/hfetitf.h:
+
+hfet2/hfet2itf.h:
+
+hisim/hsm1itf.h:
+
+ind/inditf.h:
+
+isrc/isrcitf.h:
+
+jfet/jfetitf.h:
+
+jfet2/jfet2itf.h:
+
+ltra/ltraitf.h:
+
+mes/mesitf.h:
+
+mesa/mesaitf.h:
+
+mos1/mos1itf.h:
+
+mos2/mos2itf.h:
+
+mos3/mos3itf.h:
+
+mos6/mos6itf.h:
+
+mos9/mos9itf.h:
+
+cpl/cplitf.h:
+
+res/resitf.h:
+
+soi3/soi3itf.h:
+
+sw/switf.h:
+
+tra/traitf.h:
+
+txl/txlitf.h:
+
+urc/urcitf.h:
+
+vbic/vbicitf.h:
+
+vccs/vccsitf.h:
+
+vcvs/vcvsitf.h:
+
+vsrc/vsrcitf.h:

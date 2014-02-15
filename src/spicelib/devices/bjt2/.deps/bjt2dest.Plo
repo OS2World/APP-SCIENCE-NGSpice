@@ -1,0 +1,231 @@
+bjt2dest.lo bjt2dest.o: bjt2dest.c ../../../../src/include/ngspice.h \
+  ../../../../config.h U:/USR/include/stddef.h U:/USR/include/sys/cdefs.h \
+  U:/USR/include/sys/gnu/cdefs.h U:/USR/include/features.h \
+  U:/USR/include/sys/_types.h U:/USR/include/machine/_types.h \
+  U:/USR/include/386/_types.h \
+  U:/USR/lib/gcc-lib/i386-pc-os2-emx/3.3.5/include/limits.h \
+  U:/USR/lib/gcc-lib/i386-pc-os2-emx/3.3.5/include/syslimits.h \
+  U:/USR/include/limits.h U:/USR/include/sys/limits.h \
+  U:/USR/include/machine/_limits.h U:/USR/include/386/_limits.h \
+  U:/USR/include/sys/syslimits.h U:/USR/include/float.h \
+  ../../../../src/include/memory.h ../../../../src/misc/stringutil.h \
+  ../../../../src/include/bool.h ../../../../src/include/defines.h \
+  ../../../../src/include/macros.h ../../../../src/include/complex.h \
+  ../../../../src/include/typedefs.h U:/USR/include/math.h \
+  U:/USR/include/stdio.h U:/USR/include/ieeefp.h \
+  U:/USR/include/machine/ieeefp.h U:/USR/include/386/ieeefp.h \
+  ../../../../src/include/missing_math.h U:/USR/include/stdlib.h \
+  U:/USR/include/sys/_null.h U:/USR/include/malloc.h \
+  U:/USR/include/string.h U:/USR/include/strings.h U:/USR/include/ctype.h \
+  U:/USR/include/_ctype.h U:/USR/include/fcntl.h \
+  U:/USR/include/sys/fcntl.h U:/USR/include/sys/stat.h \
+  U:/USR/include/sys/time.h U:/USR/include/sys/_timeval.h \
+  U:/USR/include/sys/types.h U:/USR/include/machine/endian.h \
+  U:/USR/include/386/endian.h U:/USR/include/sys/select.h \
+  U:/USR/include/sys/_sigset.h U:/USR/include/sys/timespec.h \
+  U:/USR/include/time.h U:/USR/include/termios.h \
+  U:/USR/include/sys/termios.h U:/USR/include/pwd.h \
+  U:/USR/include/netinet/in.h U:/USR/include/sys/param.h \
+  U:/USR/include/types.h U:/USR/include/machine/ansi.h \
+  U:/USR/include/386/ansi.h U:/USR/include/sys/signal.h \
+  U:/USR/include/machine/signal.h U:/USR/include/386/signal.h \
+  U:/USR/include/machine/trap.h U:/USR/include/386/trap.h \
+  U:/USR/include/machine/param.h U:/USR/include/386/param.h \
+  U:/USR/include/machine/limits.h U:/USR/include/netdb.h \
+  U:/USR/include/sys/socket.h U:/USR/include/sys/uio.h \
+  U:/USR/include/sys/ioccom.h U:/USR/include/sys/wait.h \
+  U:/USR/include/signal.h U:/USR/include/dirent.h \
+  U:/USR/include/sys/dirent.h U:/USR/include/sys/resource.h \
+  U:/USR/include/sys/timeb.h U:/USR/include/unistd.h \
+  U:/USR/include/sys/unistd.h bjt2defs.h \
+  ../../../../src/include/cktdefs.h ../../../../src/include/smpdefs.h \
+  ../../../../src/include/ifsim.h ../../../../src/include/acdefs.h \
+  ../../../../src/include/jobdefs.h ../../../../src/include/gendefs.h \
+  ../../../../src/include/trcvdefs.h ../../../../src/include/tskdefs.h \
+  ../../../../src/include/optdefs.h ../../../../src/include/sen2defs.h \
+  ../../../../src/include/pzdefs.h ../../../../src/include/noisedef.h \
+  bjt2ext.h ../../../../src/include/suffix.h
+
+../../../../src/include/ngspice.h:
+
+../../../../config.h:
+
+U:/USR/include/stddef.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/lib/gcc-lib/i386-pc-os2-emx/3.3.5/include/limits.h:
+
+U:/USR/lib/gcc-lib/i386-pc-os2-emx/3.3.5/include/syslimits.h:
+
+U:/USR/include/limits.h:
+
+U:/USR/include/sys/limits.h:
+
+U:/USR/include/machine/_limits.h:
+
+U:/USR/include/386/_limits.h:
+
+U:/USR/include/sys/syslimits.h:
+
+U:/USR/include/float.h:
+
+../../../../src/include/memory.h:
+
+../../../../src/misc/stringutil.h:
+
+../../../../src/include/bool.h:
+
+../../../../src/include/defines.h:
+
+../../../../src/include/macros.h:
+
+../../../../src/include/complex.h:
+
+../../../../src/include/typedefs.h:
+
+U:/USR/include/math.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/ieeefp.h:
+
+U:/USR/include/machine/ieeefp.h:
+
+U:/USR/include/386/ieeefp.h:
+
+../../../../src/include/missing_math.h:
+
+U:/USR/include/stdlib.h:
+
+U:/USR/include/sys/_null.h:
+
+U:/USR/include/malloc.h:
+
+U:/USR/include/string.h:
+
+U:/USR/include/strings.h:
+
+U:/USR/include/ctype.h:
+
+U:/USR/include/_ctype.h:
+
+U:/USR/include/fcntl.h:
+
+U:/USR/include/sys/fcntl.h:
+
+U:/USR/include/sys/stat.h:
+
+U:/USR/include/sys/time.h:
+
+U:/USR/include/sys/_timeval.h:
+
+U:/USR/include/sys/types.h:
+
+U:/USR/include/machine/endian.h:
+
+U:/USR/include/386/endian.h:
+
+U:/USR/include/sys/select.h:
+
+U:/USR/include/sys/_sigset.h:
+
+U:/USR/include/sys/timespec.h:
+
+U:/USR/include/time.h:
+
+U:/USR/include/termios.h:
+
+U:/USR/include/sys/termios.h:
+
+U:/USR/include/pwd.h:
+
+U:/USR/include/netinet/in.h:
+
+U:/USR/include/sys/param.h:
+
+U:/USR/include/types.h:
+
+U:/USR/include/machine/ansi.h:
+
+U:/USR/include/386/ansi.h:
+
+U:/USR/include/sys/signal.h:
+
+U:/USR/include/machine/signal.h:
+
+U:/USR/include/386/signal.h:
+
+U:/USR/include/machine/trap.h:
+
+U:/USR/include/386/trap.h:
+
+U:/USR/include/machine/param.h:
+
+U:/USR/include/386/param.h:
+
+U:/USR/include/machine/limits.h:
+
+U:/USR/include/netdb.h:
+
+U:/USR/include/sys/socket.h:
+
+U:/USR/include/sys/uio.h:
+
+U:/USR/include/sys/ioccom.h:
+
+U:/USR/include/sys/wait.h:
+
+U:/USR/include/signal.h:
+
+U:/USR/include/dirent.h:
+
+U:/USR/include/sys/dirent.h:
+
+U:/USR/include/sys/resource.h:
+
+U:/USR/include/sys/timeb.h:
+
+U:/USR/include/unistd.h:
+
+U:/USR/include/sys/unistd.h:
+
+bjt2defs.h:
+
+../../../../src/include/cktdefs.h:
+
+../../../../src/include/smpdefs.h:
+
+../../../../src/include/ifsim.h:
+
+../../../../src/include/acdefs.h:
+
+../../../../src/include/jobdefs.h:
+
+../../../../src/include/gendefs.h:
+
+../../../../src/include/trcvdefs.h:
+
+../../../../src/include/tskdefs.h:
+
+../../../../src/include/optdefs.h:
+
+../../../../src/include/sen2defs.h:
+
+../../../../src/include/pzdefs.h:
+
+../../../../src/include/noisedef.h:
+
+bjt2ext.h:
+
+../../../../src/include/suffix.h:

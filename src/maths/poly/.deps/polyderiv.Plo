@@ -1,0 +1,3 @@
+polyderiv.lo polyderiv.o: polyderiv.c polyderiv.h
+
+polyderiv.h:

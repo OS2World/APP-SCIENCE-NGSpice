@@ -1,0 +1,620 @@
+
+IBM(R) Linker for OS/2(R), Version 5.0 
+Copyright (C) IBM Corporation 1988, 2003.
+Copyright (C) Microsoft Corp. 1988, 1989.
+All rights reserved.
+
+Current option settings:
+	EXEC	CODE:RX	DATA:RW
+	Alignfile:0x00000010	ALIGNAddr:0x00010000	BASE:0x00010000
+	NOBRowse	NODBgpack	NODEbug:none	DEFaultlibrarysearch
+	NOEXEPACK	NOEXTdictionary	FIxed	NOFReeformat	NOIGnorecase
+	NOLinenumbers	NOLOgo	MAP:ngsconvert.map	OCache:0x02000000
+	NOOLDcpp	NOOPTFunc	PACKCode:0xffffffff
+	PACKData:0xffffffff	PMTYPE:VIO	SEGMENTS:256 	SEGOrder
+	STACK:0x00100000	NOSTRictwarnings	NONOSTRictwarnings
+	STUB:U:\USR\BIN\os2stub.bin	NOVERBose	VERSION:00.00
+
+
+
+ NGSCONVERT
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000AD40H TEXT32                 CODE 32-bit
+	at offset 00000000 00040H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+	at offset 00000040 00010H bytes from U:\usr\lib\binmode.obj ({standard input})
+	at offset 00000050 01A60H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 00001AB0 02A00H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (rawfile.obj)
+	at offset 000044B0 02620H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (variable.obj)
+	at offset 00006AD0 00620H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (dimens.obj)
+	at offset 000070F0 007E0H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (typesdef.obj)
+	at offset 000078D0 00168H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (quote.obj)
+	at offset 00007A40 000E0H bytes from U:\tmp\ldconv_parser_a_6df04d30c42f1d59f8.lib (input.obj)
+	at offset 00007B20 00DA8H bytes from U:\tmp\ldconv_parser_a_6df04d30c42f1d59f8.lib (lexical.obj)
+	at offset 000088D0 006B8H bytes from U:\tmp\ldconv_parser_a_6df04d30c42f1d59f8.lib (numparse.obj)
+	at offset 00008F90 00180H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (alloc.obj)
+	at offset 00009110 00098H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (mktemp.obj)
+	at offset 000091B0 00D90H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (string.obj)
+	at offset 00009F40 00120H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (misc_time.obj)
+	at offset 0000A060 006D0H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (wlist.obj)
+	at offset 0000A730 00520H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (dstring.obj)
+	at offset 0000AC50 00030H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (__main.obj)
+	at offset 0000AC80 000C0H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (emx-ctordtor.obj)
+
+ 0001:0000AD40 000000000H ________TEXT           CODE 32-bit
+
+ 0002:00000000 000100000H STACK                  STACK 32-bit
+
+ 0003:00000000 0000014C8H DATA32                 DATA 32-bit
+	at offset 00000000 00048H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+	at offset 00000050 00008H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 00000060 00008H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (rawfile.obj)
+	at offset 00000070 00008H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (variable.obj)
+	at offset 00000080 01440H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (typesdef.obj)
+	at offset 000014C0 00008H bytes from U:\tmp\ldconv_parser_a_6df04d30c42f1d59f8.lib (lexical.obj)
+
+ 0003:000014C8 000000004H SET1__os2dll           DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014CC 000000000H SET2__os2dll           DATA 32-bit
+
+ 0003:000014CC 000000004H SET3__os2dll           DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014D0 000000004H SET1___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014D4 000000004H SET2___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\binmode.obj ({standard input})
+
+ 0003:000014D8 000000004H SET3___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014DC 000000004H SET1___DTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014E0 000000000H SET2___DTOR_LIST__     DATA 32-bit
+
+ 0003:000014E0 000000004H SET3___DTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014E4 000000004H SET1___crtinit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014E8 000000000H SET2___crtinit1__      DATA 32-bit
+
+ 0003:000014E8 000000004H SET3___crtinit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014EC 000000004H SET1___crtexit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014F0 000000000H SET2___crtexit1__      DATA 32-bit
+
+ 0003:000014F0 000000004H SET3___crtexit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014F4 000000004H SET1___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014F8 000000000H SET2___eh_frame__      DATA 32-bit
+
+ 0003:000014F8 000000004H SET3___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:000014FC 000000004H SET1___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001500 000000000H SET2___eh_init__       DATA 32-bit
+
+ 0003:00001500 000000004H SET3___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001504 000000004H SET1___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001508 000000000H SET2___eh_term__       DATA 32-bit
+
+ 0003:00001508 000000004H SET3___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:0000150C 000000004H SET1___fork_parent1__  DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001510 000000000H SET2___fork_parent1__  DATA 32-bit
+
+ 0003:00001510 000000004H SET3___fork_parent1__  DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001514 000000004H SET1___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001518 000000004H SET2___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (emx-ctordtor.obj)
+
+ 0003:0000151C 000000004H SET3___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00001520 000000000H ________DATA           DATA 32-bit
+
+ 0003:00001520 0000000C0H BSS32                  BSS 32-bit
+	at offset 00000000 00020H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 00000020 00008H bytes from U:\tmp\ldconv_fte_a_6df04d30c42f1d59f8.lib (variable.obj)
+	at offset 00000030 00020H bytes from U:\tmp\ldconv_parser_a_6df04d30c42f1d59f8.lib (lexical.obj)
+	at offset 00000050 00018H bytes from U:\tmp\ldconv_parser_a_6df04d30c42f1d59f8.lib (numparse.obj)
+	at offset 00000070 00030H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (misc_time.obj)
+	at offset 000000A0 00010H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (__main.obj)
+	at offset 000000B0 00010H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (emx-ctordtor.obj)
+
+ 0003:000015E0 0000002B0H c_common               BSS 32-bit
+	at offset 00000000 00010H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 00000010 00080H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 00000090 00200H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 00000290 00010H bytes from U:\tmp\ldconv_ngsconvert_o_6df04d30c42f1d0020.obj (ngsconvert.c)
+	at offset 000002A0 00010H bytes from U:\tmp\ldconv_misc_a_6df04d30c43012ea18.lib (misc_time.obj)
+
+ 0003:00001890 000000000H ________BSS            BSS 32-bit
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0001:0   CGROUP
+ 0003:0   DGROUP
+
+
+ Address         Publics by Name
+ 0001:00001472       main
+ 0000:00000000  Abs  WEAK$ZERO
+ 0001:000092F3       _appendc
+ 0001:00006D5A       _atodims
+ 0001:00009373       _cieq
+ 0001:00009420       _ciprefix
+ 0001:000072D4       _com_dftype
+ 0001:00007738       _com_stype
+ 0001:000091F2       _copy
+ 0001:0000922D       _copy_substring
+ 0003:0000155C       _cp_altprompt
+ 0003:00001554       _cp_bqflag
+ 0001:00001A86       _cp_ccom
+ 0001:00001A4A       _cp_ccon
+ 0003:000015F0       _cp_chars
+ 0003:00001534       _cp_curerr
+ 0003:0000152C       _cp_curin
+ 0003:00001530       _cp_curout
+ 0003:00001538       _cp_debug
+ 0003:00000071       _cp_dol
+ 0001:00001A29       _cp_doquit
+ 0003:00001543       _cp_echo
+ 0001:00001A72       _cp_enqvar
+ 0003:00001528       _cp_err
+ 0003:000014C0       _cp_event
+ 0001:00001A40       _cp_evloop
+ 0001:00005920       _cp_getvar
+ 0003:000014C5       _cp_hash
+ 0003:00001542       _cp_ignoreeof
+ 0003:00001520       _cp_in
+ 0003:00001550       _cp_inp_cur
+ 0003:000014C4       _cp_interactive
+ 0001:00007C06       _cp_lexer
+ 0003:000015E0       _cp_maxhistlength
+ 0003:00000050       _cp_nocc
+ 0003:00001541       _cp_noclobber
+ 0003:00000070       _cp_noglob
+ 0003:00001540       _cp_nonomatch
+ 0003:00001524       _cp_out
+ 0001:00001A1F       _cp_popcontrol
+ 0001:00007933       _cp_printword
+ 0003:00000054       _cp_program
+ 0003:00001558       _cp_promptstring
+ 0001:00001A1A       _cp_pushcontrol
+ 0001:0000790D       _cp_quoteword
+ 0001:00005476       _cp_remvar
+ 0001:00004E50       _cp_setparse
+ 0001:00007970       _cp_striplist
+ 0001:0000799E       _cp_unquote
+ 0001:00001A94       _cp_usrset
+ 0001:00001A3B       _cp_usrvars
+ 0001:00005C34       _cp_variablesubst
+ 0001:00004500       _cp_varwl
+ 0001:0000678E       _cp_vprint
+ 0001:000048D8       _cp_vset
+ 0001:000078D0       _cp_wstrip
+ 0001:00009F46       _datestring
+ 0001:00006AD8       _dimstring
+ 0003:00001870       _disptype
+ 0003:00001520       _edata
+ 0001:00006CE1       _emptydims
+ 0003:00001890       _end
+ 0001:0000AD40       _etext
+ 0001:00005363       _free_struct_variable
+ 0003:0000153C       _ft_curckt
+ 0001:00008990       _ft_numparse
+ 0003:00001539       _ft_parsedb
+ 0001:000075CB       _ft_plotabbrev
+ 0003:00001570       _ft_strictnumparse
+ 0001:000074EB       _ft_typabbrev
+ 0001:0000751B       _ft_typenames
+ 0001:00007550       _ft_typnum
+ 0001:000094FA       _gettok
+ 0001:000098AA       _gettok_instance
+ 0001:00009623       _gettok_iv
+ 0001:000099B1       _gettok_node
+ 0001:00009799       _gettok_noparens
+ 0001:00009DBC       _get_comma_separated_values
+ 0001:00009AFE       _get_l_paren
+ 0001:00009B59       _get_r_paren
+ 0001:00001A5E       _if_errstring
+ 0001:00007A45       _inchar
+ 0001:00006C3F       _incindex
+ 0001:00006BA8       _indexstring
+ 0001:00000059       _Input
+ 0001:00007AE9       _input
+ 0001:00009CDD       _isquote
+ 0001:00009D0A       _is_arith_char
+ 0001:00001472       _main
+ 0003:000014A4       _noplotabs
+ 0003:000014A0       _notypes
+ 0001:00001A24       _out_init
+ 0003:00001670       _out_pbuf
+ 0001:00001A68       _out_printf
+ 0001:00001A6D       _out_send
+ 0003:000004A0       _plotabs
+ 0001:000091B0       _prefix
+ 0003:00000060       _raw_prec
+ 0001:00002A65       _raw_read
+ 0001:00001C48       _raw_write
+ 0001:00009324       _scannum
+ 0001:0000A018       _seconds
+ 0001:00006FFE       _skipdims
+ 0001:0000911D       _smktemp
+ 0001:0000A75B       _spice_dstring_append
+ 0001:0000A83C       _spice_dstring_append_char
+ 0001:0000AC01       _spice_dstring_free
+ 0001:0000A730       _spice_dstring_init
+ 0001:0000AABA       _spice_dstring_print
+ 0001:0000ABD8       _spice_dstring_setlength
+ 0001:00009BB4       _stripWhiteSpacesInsideParens
+ 0001:000094C5       _strtolower
+ 0001:00009D75       _str_has_arith_char
+ 0001:0000927B       _substring
+ 0003:00001880       _timebegin
+ 0001:00009FC5       _timediff
+ 0001:00008FC4       _tmalloc
+ 0001:00009064       _trealloc
+ 0001:000090EE       _txfree
+ 0003:00000080       _types
+ 0001:00005F75       _vareval
+ 0003:00001544       _variables
+ 0001:00001A7C       _vec_get
+ 0001:0000A3B5       _wl_append
+ 0001:0000A2B5       _wl_build
+ 0001:0000A0DF       _wl_copy
+ 0001:0000A451       _wl_flatten
+ 0001:0000A090       _wl_free
+ 0001:0000A060       _wl_length
+ 0001:0000A334       _wl_mkvec
+ 0001:0000A4E8       _wl_nthelem
+ 0001:0000A264       _wl_print
+ 0001:0000A63B       _wl_range
+ 0001:0000A410       _wl_reverse
+ 0001:0000A543       _wl_sort
+ 0001:0000A190       _wl_splice
+ 0001:00001AA7       _XtDispatchEvent
+ 0000:00000000  Imp  __alloca             (libc063.161)
+ 0000:00000000  Imp  __atfork_callback    (libc063.445)
+ 0000:00000000  Imp  __CRT_init           (libc063.167)
+ 0003:00000000       __data
+ 0003:00001520       __edata
+ 0003:00001890       __end
+ 0000:00000000  Imp  __errno              (libc063.541)
+ 0001:0000AD40       __etext
+ 0000:00000000  Imp  __fmode_bin          (libc063.19)
+ 0003:000014C8       __os2dll
+ 0001:0000AB4F       __spice_dstring_setlength
+ 0000:00000000  Imp  __std_asctime        (libc063.659)
+ 0000:00000000  Imp  __std_atexit         (libc063.667)
+ 0000:00000000  Imp  __std_atoi           (libc063.670)
+ 0000:00000000  Imp  __std_bzero          (libc063.679)
+ 0000:00000000  Imp  __std_calloc         (libc063.680)
+ 0000:00000000  Imp  __std_clearerr       (libc063.696)
+ 0000:00000000  Imp  __std_exit           (libc063.733)
+ 0000:00000000  Imp  __std_fclose         (libc063.740)
+ 0000:00000000  Imp  __std_fflush         (libc063.745)
+ 0000:00000000  Imp  __std_fgets          (libc063.750)
+ 0000:00000000  Imp  __std_fileno         (libc063.752)
+ 0000:00000000  Imp  __std_fopen          (libc063.760)
+ 0000:00000000  Imp  __std_fprintf        (libc063.763)
+ 0000:00000000  Imp  __std_fputc          (libc063.764)
+ 0000:00000000  Imp  __std_fputs          (libc063.766)
+ 0000:00000000  Imp  __std_fread          (libc063.767)
+ 0000:00000000  Imp  __std_free           (libc063.768)
+ 0000:00000000  Imp  __std_fscanf         (libc063.772)
+ 0000:00000000  Imp  __std_fseek          (libc063.773)
+ 0000:00000000  Imp  __std_ftell          (libc063.780)
+ 0000:00000000  Imp  __std_ftime          (libc063.782)
+ 0000:00000000  Imp  __std_fwrite         (libc063.785)
+ 0000:00000000  Imp  __std_getc           (libc063.1732)
+ 0000:00000000  Imp  __std_getenv         (libc063.791)
+ 0000:00000000  Imp  __std_getpid         (libc063.806)
+ 0000:00000000  Imp  __std_localtime      (libc063.843)
+ 0000:00000000  Imp  __std_memcpy         (libc063.864)
+ 0000:00000000  Imp  __std_perror         (libc063.886)
+ 0000:00000000  Imp  __std_pow            (libc063.890)
+ 0000:00000000  Imp  __std_printf         (libc063.892)
+ 0000:00000000  Imp  __std_putc           (libc063.1737)
+ 0000:00000000  Imp  __std_qsort          (libc063.898)
+ 0000:00000000  Imp  __std_read           (libc063.902)
+ 0000:00000000  Imp  __std_realloc        (libc063.907)
+ 0000:00000000  Imp  __std_sprintf        (libc063.989)
+ 0000:00000000  Imp  __std_sscanf         (libc063.994)
+ 0000:00000000  Imp  __std_strcat         (libc063.998)
+ 0000:00000000  Imp  __std_strchr         (libc063.999)
+ 0000:00000000  Imp  __std_strcmp         (libc063.1000)
+ 0000:00000000  Imp  __std_strcpy         (libc063.1002)
+ 0000:00000000  Imp  __std_strdup         (libc063.1004)
+ 0000:00000000  Imp  __std_strlen         (libc063.1009)
+ 0000:00000000  Imp  __std_strncpy        (libc063.1013)
+ 0000:00000000  Imp  __std_strstr         (libc063.1022)
+ 0000:00000000  Imp  __std_time           (libc063.1060)
+ 0000:00000000  Imp  __std_unlink         (libc063.1078)
+ 0000:00000000  Imp  __std_vsprintf       (libc063.1089)
+ 0001:00000000       __text
+ 0000:00000000  Imp  __wildcard           (libc063.1163)
+ 0003:00001520       ___bss_start
+ 0003:000014EC       ___crtexit1__
+ 0003:000014E4       ___crtinit1__
+ 0001:0000AC80       ___ctordtorInit
+ 0000:00000000  Imp  ___ctordtorInit1     (libc063.231)
+ 0001:0000ACAE       ___ctordtorTerm
+ 0000:00000000  Imp  ___ctordtorTerm1     (libc063.232)
+ 0003:000014D0       ___CTOR_LIST__
+ 0003:00000000       ___data_start
+ 0001:0000AC56       ___do_global_ctors
+ 0001:0000AC50       ___do_global_dtors
+ 0003:000014DC       ___DTOR_LIST__
+ 0003:000014F4       ___eh_frame__
+ 0003:000014FC       ___eh_init__
+ 0003:00001504       ___eh_term__
+ 0003:00001514       ___fork_child1__
+ 0003:0000150C       ___fork_parent1__
+ 0000:00000000  Imp  ___init_app          (libc063.265)
+ 0000:00000000  Imp  ___libc_ForkRegisterModule (libc063.343)
+ 0000:00000000  Imp  ___libc_GLocaleCtype (libc063.3)
+ 0001:0000AC68       ___main
+ 0001:0000AC8A       ___POST$__ctordtorInit
+ 0001:0000ACB8       ___POST$__ctordtorTerm
+ 0001:0000AC66       ___POST$__do_global_ctors
+ 0001:0000AC72       ___POST$__main
+ 0000:00000000  Imp  ___stderrp           (libc063.8)
+ 0000:00000000  Imp  ___stdinp            (libc063.9)
+ 0000:00000000  Imp  ___stdoutp           (libc063.10)
+
+
+ Address         Publics by Value
+ 0000:00000000  Imp  __std_fwrite         (libc063.785)
+ 0000:00000000  Imp  __std_strlen         (libc063.1009)
+ 0000:00000000  Imp  __std_qsort          (libc063.898)
+ 0000:00000000  Imp  __std_fflush         (libc063.745)
+ 0000:00000000  Imp  __std_strcmp         (libc063.1000)
+ 0000:00000000  Imp  __std_asctime        (libc063.659)
+ 0000:00000000  Imp  __std_unlink         (libc063.1078)
+ 0000:00000000  Imp  __std_strcpy         (libc063.1002)
+ 0000:00000000  Imp  __std_perror         (libc063.886)
+ 0000:00000000  Imp  __std_printf         (libc063.892)
+ 0000:00000000  Imp  __std_strdup         (libc063.1004)
+ 0000:00000000  Imp  __std_strchr         (libc063.999)
+ 0000:00000000  Imp  __std_fileno         (libc063.752)
+ 0000:00000000  Imp  __std_fputs          (libc063.766)
+ 0000:00000000  Imp  __std_getpid         (libc063.806)
+ 0000:00000000  Imp  __std_getc           (libc063.1732)
+ 0000:00000000  Imp  __std_getenv         (libc063.791)
+ 0000:00000000  Imp  __std_strcat         (libc063.998)
+ 0000:00000000  Imp  __std_fclose         (libc063.740)
+ 0000:00000000  Imp  __std_sscanf         (libc063.994)
+ 0000:00000000  Imp  __std_memcpy         (libc063.864)
+ 0000:00000000  Imp  __std_calloc         (libc063.680)
+ 0000:00000000  Imp  ___init_app          (libc063.265)
+ 0000:00000000  Imp  ___ctordtorInit1     (libc063.231)
+ 0000:00000000  Imp  __alloca             (libc063.161)
+ 0000:00000000  Abs  WEAK$ZERO
+ 0000:00000000  Imp  __errno              (libc063.541)
+ 0000:00000000  Imp  ___stdinp            (libc063.9)
+ 0000:00000000  Imp  __std_atoi           (libc063.670)
+ 0000:00000000  Imp  __std_pow            (libc063.890)
+ 0000:00000000  Imp  __wildcard           (libc063.1163)
+ 0000:00000000  Imp  __CRT_init           (libc063.167)
+ 0000:00000000  Imp  __std_free           (libc063.768)
+ 0000:00000000  Imp  __atfork_callback    (libc063.445)
+ 0000:00000000  Imp  __std_fprintf        (libc063.763)
+ 0000:00000000  Imp  __std_realloc        (libc063.907)
+ 0000:00000000  Imp  __std_strncpy        (libc063.1013)
+ 0000:00000000  Imp  __std_sprintf        (libc063.989)
+ 0000:00000000  Imp  __std_clearerr       (libc063.696)
+ 0000:00000000  Imp  __std_vsprintf       (libc063.1089)
+ 0000:00000000  Imp  ___ctordtorTerm1     (libc063.232)
+ 0000:00000000  Imp  ___libc_ForkRegisterModule (libc063.343)
+ 0000:00000000  Imp  __std_localtime      (libc063.843)
+ 0000:00000000  Imp  __std_strstr         (libc063.1022)
+ 0000:00000000  Imp  __std_atexit         (libc063.667)
+ 0000:00000000  Imp  __std_exit           (libc063.733)
+ 0000:00000000  Imp  __std_bzero          (libc063.679)
+ 0000:00000000  Imp  __std_fopen          (libc063.760)
+ 0000:00000000  Imp  __std_ftell          (libc063.780)
+ 0000:00000000  Imp  __std_fputc          (libc063.764)
+ 0000:00000000  Imp  __std_fseek          (libc063.773)
+ 0000:00000000  Imp  __fmode_bin          (libc063.19)
+ 0000:00000000  Imp  __std_time           (libc063.1060)
+ 0000:00000000  Imp  __std_ftime          (libc063.782)
+ 0000:00000000  Imp  ___stderrp           (libc063.8)
+ 0000:00000000  Imp  __std_putc           (libc063.1737)
+ 0000:00000000  Imp  __std_fread          (libc063.767)
+ 0000:00000000  Imp  __std_read           (libc063.902)
+ 0000:00000000  Imp  __std_fscanf         (libc063.772)
+ 0000:00000000  Imp  ___libc_GLocaleCtype (libc063.3)
+ 0000:00000000  Imp  __std_fgets          (libc063.750)
+ 0000:00000000  Imp  ___stdoutp           (libc063.10)
+ 0001:00000000       __text
+ 0001:00000059       _Input
+ 0001:00001472       _main
+ 0001:00001472       main
+ 0001:00001A1A       _cp_pushcontrol
+ 0001:00001A1F       _cp_popcontrol
+ 0001:00001A24       _out_init
+ 0001:00001A29       _cp_doquit
+ 0001:00001A3B       _cp_usrvars
+ 0001:00001A40       _cp_evloop
+ 0001:00001A4A       _cp_ccon
+ 0001:00001A5E       _if_errstring
+ 0001:00001A68       _out_printf
+ 0001:00001A6D       _out_send
+ 0001:00001A72       _cp_enqvar
+ 0001:00001A7C       _vec_get
+ 0001:00001A86       _cp_ccom
+ 0001:00001A94       _cp_usrset
+ 0001:00001AA7       _XtDispatchEvent
+ 0001:00001C48       _raw_write
+ 0001:00002A65       _raw_read
+ 0001:00004500       _cp_varwl
+ 0001:000048D8       _cp_vset
+ 0001:00004E50       _cp_setparse
+ 0001:00005363       _free_struct_variable
+ 0001:00005476       _cp_remvar
+ 0001:00005920       _cp_getvar
+ 0001:00005C34       _cp_variablesubst
+ 0001:00005F75       _vareval
+ 0001:0000678E       _cp_vprint
+ 0001:00006AD8       _dimstring
+ 0001:00006BA8       _indexstring
+ 0001:00006C3F       _incindex
+ 0001:00006CE1       _emptydims
+ 0001:00006D5A       _atodims
+ 0001:00006FFE       _skipdims
+ 0001:000072D4       _com_dftype
+ 0001:000074EB       _ft_typabbrev
+ 0001:0000751B       _ft_typenames
+ 0001:00007550       _ft_typnum
+ 0001:000075CB       _ft_plotabbrev
+ 0001:00007738       _com_stype
+ 0001:000078D0       _cp_wstrip
+ 0001:0000790D       _cp_quoteword
+ 0001:00007933       _cp_printword
+ 0001:00007970       _cp_striplist
+ 0001:0000799E       _cp_unquote
+ 0001:00007A45       _inchar
+ 0001:00007AE9       _input
+ 0001:00007C06       _cp_lexer
+ 0001:00008990       _ft_numparse
+ 0001:00008FC4       _tmalloc
+ 0001:00009064       _trealloc
+ 0001:000090EE       _txfree
+ 0001:0000911D       _smktemp
+ 0001:000091B0       _prefix
+ 0001:000091F2       _copy
+ 0001:0000922D       _copy_substring
+ 0001:0000927B       _substring
+ 0001:000092F3       _appendc
+ 0001:00009324       _scannum
+ 0001:00009373       _cieq
+ 0001:00009420       _ciprefix
+ 0001:000094C5       _strtolower
+ 0001:000094FA       _gettok
+ 0001:00009623       _gettok_iv
+ 0001:00009799       _gettok_noparens
+ 0001:000098AA       _gettok_instance
+ 0001:000099B1       _gettok_node
+ 0001:00009AFE       _get_l_paren
+ 0001:00009B59       _get_r_paren
+ 0001:00009BB4       _stripWhiteSpacesInsideParens
+ 0001:00009CDD       _isquote
+ 0001:00009D0A       _is_arith_char
+ 0001:00009D75       _str_has_arith_char
+ 0001:00009DBC       _get_comma_separated_values
+ 0001:00009F46       _datestring
+ 0001:00009FC5       _timediff
+ 0001:0000A018       _seconds
+ 0001:0000A060       _wl_length
+ 0001:0000A090       _wl_free
+ 0001:0000A0DF       _wl_copy
+ 0001:0000A190       _wl_splice
+ 0001:0000A264       _wl_print
+ 0001:0000A2B5       _wl_build
+ 0001:0000A334       _wl_mkvec
+ 0001:0000A3B5       _wl_append
+ 0001:0000A410       _wl_reverse
+ 0001:0000A451       _wl_flatten
+ 0001:0000A4E8       _wl_nthelem
+ 0001:0000A543       _wl_sort
+ 0001:0000A63B       _wl_range
+ 0001:0000A730       _spice_dstring_init
+ 0001:0000A75B       _spice_dstring_append
+ 0001:0000A83C       _spice_dstring_append_char
+ 0001:0000AABA       _spice_dstring_print
+ 0001:0000AB4F       __spice_dstring_setlength
+ 0001:0000ABD8       _spice_dstring_setlength
+ 0001:0000AC01       _spice_dstring_free
+ 0001:0000AC50       ___do_global_dtors
+ 0001:0000AC56       ___do_global_ctors
+ 0001:0000AC66       ___POST$__do_global_ctors
+ 0001:0000AC68       ___main
+ 0001:0000AC72       ___POST$__main
+ 0001:0000AC80       ___ctordtorInit
+ 0001:0000AC8A       ___POST$__ctordtorInit
+ 0001:0000ACAE       ___ctordtorTerm
+ 0001:0000ACB8       ___POST$__ctordtorTerm
+ 0001:0000AD40       _etext
+ 0001:0000AD40       __etext
+ 0003:00000000       __data
+ 0003:00000000       ___data_start
+ 0003:00000050       _cp_nocc
+ 0003:00000054       _cp_program
+ 0003:00000060       _raw_prec
+ 0003:00000070       _cp_noglob
+ 0003:00000071       _cp_dol
+ 0003:00000080       _types
+ 0003:000004A0       _plotabs
+ 0003:000014A0       _notypes
+ 0003:000014A4       _noplotabs
+ 0003:000014C0       _cp_event
+ 0003:000014C4       _cp_interactive
+ 0003:000014C5       _cp_hash
+ 0003:000014C8       __os2dll
+ 0003:000014D0       ___CTOR_LIST__
+ 0003:000014DC       ___DTOR_LIST__
+ 0003:000014E4       ___crtinit1__
+ 0003:000014EC       ___crtexit1__
+ 0003:000014F4       ___eh_frame__
+ 0003:000014FC       ___eh_init__
+ 0003:00001504       ___eh_term__
+ 0003:0000150C       ___fork_parent1__
+ 0003:00001514       ___fork_child1__
+ 0003:00001520       ___bss_start
+ 0003:00001520       __edata
+ 0003:00001520       _edata
+ 0003:00001520       _cp_in
+ 0003:00001524       _cp_out
+ 0003:00001528       _cp_err
+ 0003:0000152C       _cp_curin
+ 0003:00001530       _cp_curout
+ 0003:00001534       _cp_curerr
+ 0003:00001538       _cp_debug
+ 0003:00001539       _ft_parsedb
+ 0003:0000153C       _ft_curckt
+ 0003:00001540       _cp_nonomatch
+ 0003:00001541       _cp_noclobber
+ 0003:00001542       _cp_ignoreeof
+ 0003:00001543       _cp_echo
+ 0003:00001544       _variables
+ 0003:00001550       _cp_inp_cur
+ 0003:00001554       _cp_bqflag
+ 0003:00001558       _cp_promptstring
+ 0003:0000155C       _cp_altprompt
+ 0003:00001570       _ft_strictnumparse
+ 0003:000015E0       _cp_maxhistlength
+ 0003:000015F0       _cp_chars
+ 0003:00001670       _out_pbuf
+ 0003:00001870       _disptype
+ 0003:00001880       _timebegin
+ 0003:00001890       _end
+ 0003:00001890       __end
+
+Program entry point at 0001:00000000

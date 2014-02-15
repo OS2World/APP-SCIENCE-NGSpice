@@ -1,0 +1,24 @@
+* Standard spice and nutmeg init file
+alias exit quit
+alias acct rusage all
+set x11lineararcs
+
+*unset brief
+
+strcmp __flag $program "ngspice"
+if $__flag = 0
+
+*set numparams
+
+* For SPICE2 POLYs, edit the below line to point to the location 
+* of your codemode.
+* codemodel ${exec_prefix}/lib/spice/spice2poly.cm
+
+* The other codemodels
+* codemodel ${exec_prefix}/lib/spice/analog.cm
+* codemodel ${exec_prefix}/lib/spice/digital.cm
+* codemodel ${exec_prefix}/lib/spice/xtradev.cm
+* codemodel ${exec_prefix}/lib/spice/xtraevt.cm
+
+end
+unset __flag

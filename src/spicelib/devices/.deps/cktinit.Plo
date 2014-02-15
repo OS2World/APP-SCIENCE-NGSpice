@@ -1,0 +1,118 @@
+cktinit.lo cktinit.o: cktinit.c ../../../config.h \
+  ../../../src/include/memory.h U:/USR/include/stddef.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  ../../../src/misc/stringutil.h ../../../src/include/bool.h \
+  ../../../src/include/cktdefs.h ../../../src/include/typedefs.h \
+  ../../../src/include/smpdefs.h U:/USR/include/stdio.h \
+  U:/USR/include/math.h U:/USR/include/machine/_limits.h \
+  U:/USR/include/386/_limits.h ../../../src/include/complex.h \
+  ../../../src/include/ifsim.h ../../../src/include/acdefs.h \
+  ../../../src/include/jobdefs.h ../../../src/include/gendefs.h \
+  ../../../src/include/trcvdefs.h ../../../src/include/tskdefs.h \
+  ../../../src/include/optdefs.h ../../../src/include/sen2defs.h \
+  ../../../src/include/pzdefs.h ../../../src/include/noisedef.h \
+  ../../../src/include/devdefs.h ../../../src/include/sperror.h \
+  ../../../src/include/iferrmsg.h ../../../src/include/fteext.h \
+  ../../../src/include/dvec.h ../../../src/include/grid.h \
+  ../../../src/include/plot.h ../../../src/include/wordlist.h \
+  ../../../src/include/cpdefs.h ../../../src/include/cpstd.h \
+  ../../../src/include/cpextern.h ../../../src/include/ftedefs.h \
+  ../../../src/include/fteparse.h ../../../src/include/pnode.h \
+  ../../../src/include/fteinp.h ../../../src/include/inpdefs.h \
+  ../../../src/include/inpptree.h dev.h
+
+../../../config.h:
+
+../../../src/include/memory.h:
+
+U:/USR/include/stddef.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+../../../src/misc/stringutil.h:
+
+../../../src/include/bool.h:
+
+../../../src/include/cktdefs.h:
+
+../../../src/include/typedefs.h:
+
+../../../src/include/smpdefs.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/math.h:
+
+U:/USR/include/machine/_limits.h:
+
+U:/USR/include/386/_limits.h:
+
+../../../src/include/complex.h:
+
+../../../src/include/ifsim.h:
+
+../../../src/include/acdefs.h:
+
+../../../src/include/jobdefs.h:
+
+../../../src/include/gendefs.h:
+
+../../../src/include/trcvdefs.h:
+
+../../../src/include/tskdefs.h:
+
+../../../src/include/optdefs.h:
+
+../../../src/include/sen2defs.h:
+
+../../../src/include/pzdefs.h:
+
+../../../src/include/noisedef.h:
+
+../../../src/include/devdefs.h:
+
+../../../src/include/sperror.h:
+
+../../../src/include/iferrmsg.h:
+
+../../../src/include/fteext.h:
+
+../../../src/include/dvec.h:
+
+../../../src/include/grid.h:
+
+../../../src/include/plot.h:
+
+../../../src/include/wordlist.h:
+
+../../../src/include/cpdefs.h:
+
+../../../src/include/cpstd.h:
+
+../../../src/include/cpextern.h:
+
+../../../src/include/ftedefs.h:
+
+../../../src/include/fteparse.h:
+
+../../../src/include/pnode.h:
+
+../../../src/include/fteinp.h:
+
+../../../src/include/inpdefs.h:
+
+../../../src/include/inpptree.h:
+
+dev.h:

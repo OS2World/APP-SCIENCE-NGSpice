@@ -1,0 +1,72 @@
+soi3init.lo soi3init.o: soi3init.c ../../../../config.h \
+  ../../../../src/include/devdefs.h ../../../../src/include/optdefs.h \
+  ../../../../src/include/gendefs.h ../../../../src/include/typedefs.h \
+  ../../../../src/include/ifsim.h ../../../../src/include/cktdefs.h \
+  ../../../../src/include/smpdefs.h U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  U:/USR/include/math.h U:/USR/include/machine/_limits.h \
+  U:/USR/include/386/_limits.h ../../../../src/include/complex.h \
+  ../../../../src/include/acdefs.h ../../../../src/include/jobdefs.h \
+  ../../../../src/include/trcvdefs.h ../../../../src/include/tskdefs.h \
+  ../../../../src/include/sen2defs.h ../../../../src/include/pzdefs.h \
+  ../../../../src/include/noisedef.h soi3itf.h soi3ext.h soi3init.h
+
+../../../../config.h:
+
+../../../../src/include/devdefs.h:
+
+../../../../src/include/optdefs.h:
+
+../../../../src/include/gendefs.h:
+
+../../../../src/include/typedefs.h:
+
+../../../../src/include/ifsim.h:
+
+../../../../src/include/cktdefs.h:
+
+../../../../src/include/smpdefs.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/include/math.h:
+
+U:/USR/include/machine/_limits.h:
+
+U:/USR/include/386/_limits.h:
+
+../../../../src/include/complex.h:
+
+../../../../src/include/acdefs.h:
+
+../../../../src/include/jobdefs.h:
+
+../../../../src/include/trcvdefs.h:
+
+../../../../src/include/tskdefs.h:
+
+../../../../src/include/sen2defs.h:
+
+../../../../src/include/pzdefs.h:
+
+../../../../src/include/noisedef.h:
+
+soi3itf.h:
+
+soi3ext.h:
+
+soi3init.h:
